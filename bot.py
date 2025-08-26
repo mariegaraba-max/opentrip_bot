@@ -12,7 +12,7 @@ DB = "routes.sqlite"
 def init_db():
 conn = sqlite3.connect(DB)
 cur = conn.cursor()
-cur.execute("""
+cur.execute(""
 CREATE TABLE IF NOT EXISTS routes (
 id INTEGER PRIMARY KEY AUTOINCREMENT,
 user_id INTEGER,
@@ -22,7 +22,7 @@ consumption REAL,
 max_hours REAL,
 created_at INTEGER
 )
-""")
+"")
 conn.commit()
 conn.close()
 
