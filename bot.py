@@ -1,4 +1,3 @@
-> Мария:
 import logging
 import requests
 from aiogram import Bot, Dispatcher, executor, types
