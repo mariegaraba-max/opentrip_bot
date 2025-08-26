@@ -1,0 +1,6 @@
+import os
+
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+ORS_API_KEY = os.getenv('ORS_API_KEY')
+OPENTRIPMAP_KEY = os.getenv('OPENTRIPMAP_KEY')
+
